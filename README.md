@@ -3,8 +3,9 @@ This project demonstrates a full-lifecycle Data Engineering pipeline built on AW
 The goal was to build a scalable, cost-effective architecture without managing underlying servers (Serverless), moving data from a **Raw Data Lake** to a **Refined Data Warehouse**.
 
 ## Architecture
-Flow: Local Python Script(DataGenerator.py) -> AWS S3 (Raw) -> AWS Glue (PySpark) -> AWS S3 (Processed) -> AWS Redshift
-<img width="655" height="1030" alt="image" src="https://github.com/user-attachments/assets/2653042f-0194-479f-93e6-9f3e8e499aef" />
+Flow:Local Python Script(DataGenerator.py) -> AWS S3 (Raw) -> AWS Glue (PySpark) -> AWS S3 (Processed) -> AWS Redshift
+<img width="1024" height="1536" alt="Data pipeline archit" src="https://github.com/user-attachments/assets/5da5f6bd-7e37-43eb-8080-e2c0d441d9ea" />
+
 
 ###Technologies Used
 Language: Python, SQL, PySpark
